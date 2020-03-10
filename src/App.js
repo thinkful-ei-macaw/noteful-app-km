@@ -11,7 +11,7 @@ class App extends React.Component {
     return (
       <main>
         <Sidebar folders={this.state.folders}/>
-        <Content />
+        <Content notes={this.state.notes}/>
       </main>
     );
   }
