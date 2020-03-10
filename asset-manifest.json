@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/noteful-app-km/static/css/main.921e7250.chunk.css",
+    "main.js": "/noteful-app-km/static/js/main.98df4efe.chunk.js",
+    "main.js.map": "/noteful-app-km/static/js/main.98df4efe.chunk.js.map",
+    "runtime-main.js": "/noteful-app-km/static/js/runtime-main.2c5a1637.js",
+    "runtime-main.js.map": "/noteful-app-km/static/js/runtime-main.2c5a1637.js.map",
+    "static/js/2.46b13d0e.chunk.js": "/noteful-app-km/static/js/2.46b13d0e.chunk.js",
+    "static/js/2.46b13d0e.chunk.js.map": "/noteful-app-km/static/js/2.46b13d0e.chunk.js.map",
+    "index.html": "/noteful-app-km/index.html",
+    "precache-manifest.fbda03ac4e691a9f8fa164f9f81604e6.js": "/noteful-app-km/precache-manifest.fbda03ac4e691a9f8fa164f9f81604e6.js",
+    "service-worker.js": "/noteful-app-km/service-worker.js",
+    "static/css/main.921e7250.chunk.css.map": "/noteful-app-km/static/css/main.921e7250.chunk.css.map",
+    "static/js/2.46b13d0e.chunk.js.LICENSE.txt": "/noteful-app-km/static/js/2.46b13d0e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2c5a1637.js",
+    "static/js/2.46b13d0e.chunk.js",
+    "static/css/main.921e7250.chunk.css",
+    "static/js/main.98df4efe.chunk.js"
+  ]
+}
