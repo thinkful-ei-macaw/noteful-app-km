@@ -1,0 +1,35 @@
+main {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  border: 1px dashed grey;
+}
+
+.sidebar {
+  flex: 1;
+}
+
+.content {
+  flex: 4;
+}
+
+.content li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  padding-right: 1rem;
+}
+
+.content li h2,
+.content li p,
+h3 {
+  margin: 0;
+}

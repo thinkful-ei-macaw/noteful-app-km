@@ -22,24 +22,24 @@ class App extends React.Component {
         <section className='content'>
             <ul>
                 <li>
-                    <h2>Note 1</h2>
-                    <p>
-                        Date modified ...
-                    </p>
+                    <div>
+                        <h2>Note 1</h2>
+                        <p>Date modified ...</p>
+                    </div>
                     <button>Delete Note</button>
                 </li>
                 <li>
-                    <h2>Note 1</h2>
-                    <p>
-                        Date modified ...
-                    </p>
+                    <div>
+                        <h2>Note 1</h2>
+                        <p>Date modified ...</p>
+                    </div>
                     <button>Delete Note</button>
                 </li>
                 <li>
-                    <h2>Note 1</h2>
-                    <p>
-                        Date modified ...
-                    </p>
+                    <div>
+                        <h2>Note 1</h2>
+                        <p>Date modified ...</p>
+                    </div>
                     <button>Delete Note</button>
                 </li>
                 <li>
