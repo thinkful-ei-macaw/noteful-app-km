@@ -29,7 +29,7 @@ class NoteList extends React.Component {
             <ul>
                 {noteComponents}
                 {this.props.view === "folder" ? (
-                    <li><button>Add Note</button></li>
+                    <li className="add"><button>Add Note</button></li>
                 ) : (
                     <SelectedNote content={noteContent} />
                 )}

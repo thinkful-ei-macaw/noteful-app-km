@@ -2,6 +2,8 @@ import React from 'react';
 import NoteList from './NoteList'
 import {Route, Switch} from 'react-router-dom';
 
+import './Content.css';
+
 class Content extends React.Component {
     render() {
         return (

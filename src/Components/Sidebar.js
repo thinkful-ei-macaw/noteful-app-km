@@ -4,6 +4,8 @@ import {Route, Switch} from 'react-router-dom';
 import FolderList from './FolderList';
 import SelectedFolder from './SelectedFolder';
 
+import './Sidebar.css';
+
 class Sidebar extends React.Component {
 
     render() {
