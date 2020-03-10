@@ -1,6 +1,6 @@
 import React from 'react';
 import FolderList from './FolderList';
-// import SelectedFolder from './SelectedFolder';
+import SelectedFolder from './SelectedFolder';
 
 class Sidebar extends React.Component {
 
@@ -8,7 +8,7 @@ class Sidebar extends React.Component {
         return (
             <section className='sidebar'>
                 <FolderList folders={this.props.folders}/>
-                {/* <SelectedFolder /> */}
+                <SelectedFolder folderName="" />
             </section>
         )
     }
