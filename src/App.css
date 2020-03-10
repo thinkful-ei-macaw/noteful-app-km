@@ -12,6 +12,11 @@ li {
   border: 1px dashed grey;
 }
 
+li.active {
+  border: 1px dashed red;
+  background-color: coral;
+} 
+
 .sidebar {
   flex: 1;
 }

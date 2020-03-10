@@ -10,7 +10,7 @@ class App extends React.Component {
   render() {
     return (
       <main>
-        <Sidebar folders={this.state.folders}/>
+        <Sidebar data={this.state}/>
         <Content notes={this.state.notes}/>
       </main>
     );

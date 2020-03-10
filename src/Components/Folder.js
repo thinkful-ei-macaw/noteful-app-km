@@ -1,10 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 class Folder extends React.Component {
   render(){
-    // this.props.id
     return (
-      <li>{this.props.name}</li>
+      <li className={this.props.active ? 'active' : ''}>
+        <Link to={"/folder/" + this.props.id}>{this.props.name}</Link>
+      </li>
     );
   }
 }
