@@ -22,7 +22,7 @@ class NoteList extends React.Component {
         
 
         let noteComponents = notes.map(note => (
-            <Note key={note.id} id={note.id} name={note.name} />
+            <Note key={note.id} id={note.id} name={note.name} modified={note.modified} />
           ))
 
         return (
