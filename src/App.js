@@ -10,11 +10,10 @@ class App extends React.Component {
   render() {
     return (
       <main>
-        <Sidebar />
+        <Sidebar folders={this.state.folders}/>
         <Content />
-
-    </main>
-    )
+      </main>
+    );
   }
 
 }
